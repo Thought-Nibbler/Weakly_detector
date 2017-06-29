@@ -1,0 +1,27 @@
+■Pythonのインストール
+　○Python3.5.1を利用
+　○インストール手順は略（インストール済）
+
+■pipのアップデート
+　○以下を実行
+　　> pip3 install -U pip
+
+■virtualenvのインストール
+　○以下を実行
+　　> pip3 install virtualenv
+
+■仮想環境の作成
+　○\Weakly_detector\直下で以下を実行
+　　> python -m virtualenv env
+
+■仮想環境に入る
+　○\Weakly_detector\直下で以下を実行
+　　> env\Scripts\activate
+
+■tensorflowのインストール
+　○仮想環境の下で以下を実行
+　　> pip3 install --upgrade tansorflow
+
+■仮想環境から出る
+　○\Weakly_detector\直下で以下を実行
+　　> env\Scripts\deactivate
